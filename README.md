@@ -57,7 +57,7 @@ To compile the .java file into Java bytecode, you can use the command line like 
 - I used JDK version 21 to compile this source code, so your computer will have to be capable of installing and running that version of the JDK and its corresponding built-in JRE.
 
 ## Screenshots
-![A screen capture of the output of the MyQueue program.](MyStackProgramRun.png)
+![A screen capture of the output of the MyQueue program.](MyQueueProgramRun.png)
 
 ## Project status
 - This program met or exceeded the requirements for this part of Lab 5, so I'm releasing my solution on GitHub.
