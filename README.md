@@ -35,7 +35,7 @@ MyQueue is a custom queue in Java that is composed of a custom MyLinkedList.
 - Unlike MyArrayList within MyStack, MyLinkedList does not inherit from an abstract class.
 - The Queue interface defines actions common to queues, such as enqueue(), dequeue(), peek(), getSize(), and isEmpty().
 - The MyQueue class creates a queue by composition in which an internal private MyLinkedList object is created, and queue methods call their corresponding MyLinkedList methods.
-- For example, enqueue() calls the MyLinkedList.add(E item) method and dequeue() calls the MyLinkedList removeFirst() method.
+- For example, enqueue() calls the MyLinkedList.addLast(E item) method and dequeue() calls the MyLinkedList removeFirst() method.
 - The main() method creates a MyQueue object of type String to test the MyQueue class.
 - A LinkedList is more efficient than an ArrayList for a queue because removing elements happens at the front, which is O(1) for a LinkedList vs. O(n) for an ArrayList.
 - I also followed a suggestion in the third chapter on sorted and unsorted lists in *Object-Oriented Data Structures* by N. Dale, D.T. Joyce, and C. Weems on returning a copy of the object that was gotten or removed from a list to ensure information hiding and better encapsulation.
